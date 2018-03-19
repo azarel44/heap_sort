@@ -1,13 +1,5 @@
-class Priority_queue_base {
-public:
-    virtual ~Priority_queue_base() { }
-    virtual bool empty() const = 0;
-    virtual void insert(int x) = 0;
-    virtual int pop_min() = 0;
-    virtual void pq_sort() = 0;
-}; // class Priority_queue_base
 
-class PQ_heap : public Priority_queue_base{
+class PQ_heap{
 private:
     vector<int> vec;
     unsigned long long int count = 0;
