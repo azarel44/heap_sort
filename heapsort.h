@@ -1,5 +1,4 @@
-
-class PQ_heap{
+class PQ_heap {
 private:
     vector<int> vec;
     unsigned long long int count = 0;
